@@ -1,0 +1,34 @@
+@import url('../cor/cores.css');
+
+.container-header{
+    height: 7em;
+}
+.container-header-nav{
+    color: var(--cor-0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.container-header-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.container-header-nav ul li{
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.container-header-nav ul li:hover{
+    border-bottom: 2px solid var(--cor-0);
+}
+
+@media (max-width: 555px){
+    .container-header-nav{
+        display: flex;
+        justify-content: center;
+    }
+}

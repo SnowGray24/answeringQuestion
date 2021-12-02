@@ -1,0 +1,56 @@
+@import url('./global.css');
+@import url('./header.css');
+@import url('./mainExperiencia.css');
+
+.grid-experiencia{
+    margin-top: 8em;
+    display: grid;
+    grid-template-columns: 40% auto;
+}
+.grid-experiencia p {
+    word-break: break-word;
+    max-width: 470px; 
+}
+
+.experiencia{
+    padding: 3em;
+}
+.experiencia::after{
+    content: "Experiência";
+    word-break: break-all;
+    font-size: 7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:rgb(143, 143, 143);
+
+}
+
+
+
+
+
+.containerExperiencia{
+    display: grid;
+    grid-template-columns: 60px 1fr 1fr;
+}
+
+
+.containerExperiencia h4{
+    margin: 0;
+}
+
+.tempoExperiencia{
+    border-right: 4px solid rgb(29, 92, 21);
+    height: 20px;
+    margin-top: 1em;
+}
+
+
+.containerCargo{
+    background-color:rgb(143, 143, 143);
+    padding: 1em;
+}
+
+.experienciaDemonstracao{
+    padding: 1em;
+}

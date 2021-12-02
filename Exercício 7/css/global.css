@@ -1,0 +1,22 @@
+@import url('./cor/cores.css');
+
+h1, h2, h3, h4, p,body, html,section{
+    margin: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-0)
+}
