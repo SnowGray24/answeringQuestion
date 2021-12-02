@@ -1,14 +1,54 @@
 @import url('../cor/cores.css');
 
 
-.intro-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
-    padding: 0px 5em 0em 5em ;
+.container-intro{
+    position: relative;
     background-color: var(--cor-12);
     color: var(--cor-1);
 }
-.container-intro{
-    position: relative;
+.intro-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
 }
+
+.intro-info{
+    align-self: end;
+    padding-bottom: 80px;
+}
+
+.intro-info h1{
+    margin-bottom: 32px;
+    font-size: 64px;
+    line-height: 1.125;
+}
+.intro-info h1 span{
+    color: var(--cor-p1);
+}
+.intro-info p{
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--cor-5);
+}
+
+.intro-info a{
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(var(--cor-p1), var(--cor-p2));
+    color: var(--cor-p5);
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 24px;
+}
+
 
