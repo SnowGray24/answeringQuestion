@@ -1,25 +1,17 @@
-p, h3, body, html{
-    margin: 0;
-}
+@import url('./global.css');
+@import url('./img.css');
 
-:root{
-    font-family: 'Outfit', sans-serif;
-}
+.container-card{
+    width: 300px;
+    height: 490px;
+    padding: 20px;
+    background-color: rgb(21, 39, 63);
+    border-radius: 12px;
+    
+    position: relative;
 
-a{
-    color:inherit;
-    text-decoration: none;
-}
+    box-sizing: border-box;
 
-p{
-    font-size: .9rem;
-    color: hsl(215, 51%, 70%);
-}
-
-img{
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 .container{
@@ -31,21 +23,7 @@ img{
 
     padding-top: auto;
     padding-bottom: auto;
-    background-color: rgb(13, 26, 45);
-}
-
-.container-card{
-    width: 300px;
-    height: 490px;
-    padding: 20px;
-    background-color: rgb(21, 39, 63);
-    border-radius: 12px;
-
-    box-sizing: border-box;
-
-}
-.container-card img{
-    border-radius: 8px;
+    background-color: hsl(217, 54%, 11%);
 }
 
 .title-card{
@@ -53,8 +31,8 @@ img{
     margin-top: 13px;
     font-size: 1.2rem;
 }
-.title-card:hover{
-    color: hsl(178, 100%, 50%);
+a:hover{
+    color: hsl(178, 100%, 50%) !important;
 }
 
 .description-card{
@@ -65,6 +43,25 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 13px;
+}
+
+
+.create-card{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    margin-top: 1em;
+    padding-top: 1em;
+    gap: 20px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+.create-card img{
+    height: inherit;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.create-card p a{
+    color: white;
 }
 
 .money-card{

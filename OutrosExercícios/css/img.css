@@ -1,0 +1,40 @@
+.container-img{
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 9px;
+    position: relative;
+    height: 260px;
+    width: 260px;
+    display: inline-block;
+}
+
+.View{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.View:hover{
+    opacity: 77%;
+}
+
+.Equilibrium{
+    border-radius: 8px;
+    position: absolute;
+    
+}
+
+
+.Equilibrium:hover{
+    filter: opacity(55%);
+    display: none;
+}
+/*
+.View:hover{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
