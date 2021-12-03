@@ -1,40 +1,30 @@
 .container-img{
-    background-color: hsl(178, 100%, 50%);
     border-radius: 9px;
     position: relative;
     height: 260px;
     width: 260px;
     display: inline-block;
+    overflow: hidden;
 }
 
 .View{
+    background-color: hsla(178, 100%, 50%, 0.5);
     display:flex;
     align-items: center;
     justify-content: center;
     height: 100%;
     width: 100%;
     position: absolute;
+    opacity: 0;
+    transition: .3s ease;
 }
 
-.View:hover{
-    opacity: 77%;
+.container-img:hover .View{
+    opacity: 1;
 }
 
 .Equilibrium{
     border-radius: 8px;
     position: absolute;
     
-}
-
-
-.Equilibrium:hover{
-    filter: opacity(55%);
-    display: none;
-}
-/*
-.View:hover{
-    
-    display:flex;
-    align-items: center;
-    justify-content: center;
 }
