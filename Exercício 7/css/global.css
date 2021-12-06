@@ -1,6 +1,6 @@
 @import url('./cor/cores.css');
 
-h1, h2, h3, h4, p,body, html,section{
+h1, h2, h3, h4, p,body, html,section, blockquote{
     margin: 0px;
 }
 
