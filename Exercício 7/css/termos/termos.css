@@ -1,0 +1,29 @@
+
+.titulo{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--cor-11);
+}
+.titulo p{
+    margin-bottom: 4px;
+}
+
+@media(max-width: 800px){
+    .titulo{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .titulo p{
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+}
+.container-titulo{
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}

@@ -18,11 +18,13 @@
 .depoimento-conteudo p{
     position: relative;
     max-width: 32ch;
+    font-weight: 900;
+    font-style: italic;
     margin-bottom: 32px;
 }
 
 .depoimento-conteudo p::before{
-    content: '"';
+    content: '“';
     position: absolute;
     font-size: 5rem;
     color: var(--cor-p2);
@@ -30,7 +32,7 @@
     top: -20px;
 }
 .depoimento-conteudo p::after{
-    content: '"';
+    content: '”';
     position: absolute;
     font-size: 5rem;
     color: var(--cor-p2);
