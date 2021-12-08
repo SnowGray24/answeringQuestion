@@ -10,4 +10,7 @@
 @import url('./global/footer.css');
 @import url('./utilidades/componentes.css');
 @import url('./termos/termos.css');
+@import url('./bicicletas/bicicletas.css');
+@import url('./seguros/vantagens.css');
+@import url('./seguros/perguntas.css');
 @import url('./utilidades/tipografia.css');

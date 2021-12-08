@@ -6,6 +6,10 @@
     padding-bottom: 60px;
 }
 
+#seguros .container-seguros{
+    padding-top: 0px;
+}
+
 .seguros-conteudo{
     max-width: 1200px;
     padding-left: 20px;

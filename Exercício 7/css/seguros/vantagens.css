@@ -1,0 +1,33 @@
+.seguros-background{
+    background-color: var(--cor-12);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.seguros-background h2{
+    margin-bottom: 60px;
+}
+
+.vantagens-seguros-itens{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+    gap: 40px 80px;
+}
+
+.vantagens-seguros-itens h3,
+.vantagens-seguros-itens img{
+    margin-bottom: 8px;
+}
+
+@media (max-width: 800px){
+    .seguros-background{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .seguros-background h2{
+        margin-bottom: 40px;
+    }
+    .vantagens-seguros-itens{
+        gap: 20px;
+    }
+}

@@ -1,0 +1,62 @@
+.bg-perguntas{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.bg-perguntas h2{
+    margin-bottom: 60px;
+}
+
+.bg-perguntas dl > div{
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.bg-perguntas dl > div:nth-child(odd){
+    background-color: var(--cor-1);
+}
+
+.bg-perguntas dt{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 8px;
+    align-items: center;
+}
+
+.bg-perguntas dt::before{
+    content: '';
+    display: inline-block;
+    height: 8px;
+    width: 12px;
+    background-color: var(--cor-p1);
+}
+
+.bg-perguntas dt::after{
+    content: '';
+    display: inline-block;
+    height: 6px;
+    width: 14px;
+    background-image: url('../../img/icones/seta-abrir.svg');
+    transition: .3s;
+}
+
+.bg-perguntas dt:hover::after{
+    transform: rotate(180deg);
+}
+
+.bg-perguntas dd{
+    padding-left: 20px;
+    padding-top: 16px;
+    max-width: 80ch;
+}
+
+@media (max-width: 800px){
+    .bg-perguntas{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .bg-perguntas h2{
+        margin-bottom: 40px;
+    }
+}
