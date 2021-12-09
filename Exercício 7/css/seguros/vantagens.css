@@ -8,6 +8,10 @@
     margin-bottom: 60px;
 }
 
+#bicicleta .titulo p{
+    text-transform: uppercase;
+}
+
 .vantagens-seguros-itens{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
